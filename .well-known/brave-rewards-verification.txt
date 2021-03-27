@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: jcten.github.io
+Token: 4d038b89c14d998bd9c3136c09b27e1c02574d8d233d91bf8e43b6be75d84f4f
