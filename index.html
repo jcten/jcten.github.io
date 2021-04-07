@@ -28,6 +28,9 @@
                 <a href="#about">About</a>
             </li>
             <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
                 <a href="#C++">C++</a>
             </li>
             <li>
@@ -38,9 +41,6 @@
             </li>
             <li>
                 <a href="#Other">Other Projects</a>
-            </li>
-            <li>
-                <a href="#skills">Skills</a>
             </li>
             <li>
                 <a href="#education">Education</a>
@@ -54,7 +54,8 @@
 
     <div id="lead">
         <div id="lead-content">
-            <img src="images/project.jpg" />
+            <img src="images/Me.png" />
+            <h2> </h2>
             <h1>JC Ten</h1>
             <h2>Software Engineer</h2>
             <a href="#" class="btn-rounded-white">Download Resume</a>
@@ -89,8 +90,27 @@
         </div>
     </div>
     <!-- End #about -->
+    <div id="skills"  class="background-alt">
+        <h2 class="heading">Skills</h2>
+        <ul>
+
+            <li>C</li>
+            <li>C++</li>
+            <li>C#</li>
+            <li>ASM - ARM</li>
+            <li>Unreal Engine 4</li>
+            <li>Unity</li>
+            <li>Perforce</li>
+            <li>Git</li>
+            <li>OpenGL</li>
+            <li>OpenAL</li>
+            <li>Swift</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
     <div id="C++"></div>
-    <div id="projects" class="background-alt">
+    <div id="projects">
         <h2 class="heading">C++</h2>
         <div class="container">
             <div class="row">
@@ -112,7 +132,7 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/OpenGLCity.png" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
@@ -131,7 +151,7 @@
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Rt in one weekend implementation</h3>
+                        <h3>OpenGL Music Demo</h3>
                         <p>
                              ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
                         </p>
@@ -140,9 +160,23 @@
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
+
                 <a id="view-more-projects" href="#">View More Projects</a>
                 <div id="more-projects" class="row">
-
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="images/rt.png" />
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>Rt in one weekend implementation</h3>
+                            <p>
+                                I wanted to know a bit more about the mathematics behind raytracing so I read Peter Shirley's "Ray Tracing in One Weekend". Later I implemented my own version of his CPU raytracer with some multithreading optimization.
+                            </p>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <!-- End .project -->
                 <div class="project shadow-large">
                     <div class="project-image">
                         <img src="images/project.jpg" />
@@ -160,30 +194,30 @@
                 <!-- End .project -->
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/Gravitar.png" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>Gravitar clone</h3>
                         <p>
-                             ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            As part of my studies I created this clone of the well known Gravitar game to learn how to use vector mathematics and pointers better. The whole game is made with vector graphics (including the title) and does not contain a single sprite. A tricky part of the game was to develop the collision system against convex polygons.
                         </p>
-                        <a href="https://jcten.github.io/ProjectTemplate" style="color:rgb(75, 75, 75);">View Project</a>
+                        <a href="https://youtu.be/JcOrGIcHvlE" style="color:rgb(75, 75, 75);">Watch Video</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/Scramble.png" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>Scramble clone</h3>
                         <p>
-                             ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            This was the first videogame I developed, I could say it was my first ¨Hello World¨, working on it I learned the basics of C and how to use the ESAT graphics library. Something funny about its development, is that I insisted on making the bomb that launches the ship to work with a parabolic formula instead of impostarlo as many people did.
                         </p>
-                        <a href="https://jcten.github.io/ProjectTemplate" style="color:rgb(75, 75, 75);">View Project</a>
+                        <a href="https://youtu.be/4SEthrNbKJo" style="color:rgb(75, 75, 75);">Watch Video</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -194,7 +228,7 @@
     </div>
     <!-- End #projects -->
     <div id="UE4"></div>
-    <div id="projects">
+    <div id="projects" class="background-alt">
         <h2 class="heading">Unreal Engine</h2>
         <div class="container">
             <div class="row">
@@ -204,7 +238,7 @@
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Nerthus: Einar's Fate</h3>
+                        <h3>Nerthus: Einar's Fate (WIP)</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
                         </p>
@@ -218,7 +252,7 @@
     </div>
     <!-- End #projects -->
     <div id="Unity"></div>
-    <div id="projects"  class="background-alt">
+    <div id="projects">
         <h2 class="heading">Unity</h2>
         <div class="container">
             <div class="row">
@@ -245,6 +279,22 @@
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>SpaceChuncks</h3>
+                        <p>
+                             ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                        </p>
+                        <a href="https://jcten.github.io/ProjectTemplate" style="color:rgb(75, 75, 75);">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Creatopia</h3>
                         <p>
                              ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
                         </p>
@@ -290,7 +340,7 @@
     </div>
     <!-- End #projects -->
     <div id="Other"></div>
-    <div id="projects">
+    <div id="projects"  class="background-alt">
         <h2 class="heading">Other Projects</h2>
         <div class="container">
             <div class="row">
@@ -330,52 +380,19 @@
     </div>
     <!-- End #projects -->
 
-    <div id="skills"  class="background-alt">
-        <h2 class="heading">Skills</h2>
-        <ul>
-
-            <li>C</li>
-            <li>C++</li>
-            <li>C#</li>
-            <li>ASM - ARM</li>
-            <li>Unreal Engine 4</li>
-            <li>Unity</li>
-            <li>Perforce</li>
-            <li>Git</li>
-            <li>OpenGL</li>
-            <li>OpenAL</li>
-            <li>Swift</li>
-        </ul>
-    </div>
-    <!-- End #skills -->
-
-    <div id="education" class="background-alt">
+    <div id="education">
         <h2 class="heading">Education</h2>
         <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-            </p>
+            <h3>ESAT</h3>
+            <span class="education-date">2018 - 2021</span>
+            <h4>HND in Computing</h4>
         </div>
         <!-- End .education-block -->
 
         <div class="education-block"> 
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <ul>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-            </ul>
+            <h3>Mondragon Unibertsitatea</h3>
+            <span class="education-date">2014 - 2018</span>
+            <h4>Degree in Leadership Entrepreneurship & Innovation (LEINN)</h4>
         </div>
         <!-- End .education-block -->
     </div>
